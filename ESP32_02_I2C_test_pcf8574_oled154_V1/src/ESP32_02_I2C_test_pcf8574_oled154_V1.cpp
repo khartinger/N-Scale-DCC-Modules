@@ -1,25 +1,32 @@
 //_____ESP32_02_I2C_test_pcf8574_oled154_V1______khartinger_____
-// This program for a D1mini (or ESP32) shows
-// .....
+// This program for an ESP32 D1 mini is used to test the 
+// self-built board I2C_3V3_5V, which provides two connections 
+// for I2C bus components.
+// The connections differ in terms of the pin assignment and the
+// supply voltage level.   
+// The connection for OLED displays (1.54" or 2.4") has 3.3V as
+// the supply voltage, the connection for PCF8574 expander 
+// boards is operated with 5V, whereby the data lines for the
+// processor are converted to 3.3V.    
 // Hardware:
 // 1. ESP32 D1 mini
 // 2. OLED 1.54" with SSD1309 controller 128x64 pixel
 // 3. PCF8574 board with (default) address 0x20
+// 4. PCF8574 board with address 0x21
 //    I2C connection: SCL=D1=GPIO5, SDA=D2=GPIO4, 3V3, GND
 //
-// Created by Karl Hartinger, March 20, 2024
+// Created by Karl Hartinger, March 21, 2024
 // Changes:
-// 2024-03-20 New
+// 2024-03-21 New
 // Released into the public domain.
-//#define ESP32D1         2              // ESP32 D1mini
 
 #include <Arduino.h>
 #include "src/pcf8574/D1_class_PCF8574.h"
 #include "src/screen154/D1_class_Screen154.h"
 
 #define  DEBUG_02       true                // OR false
-#define  VERSION_02     "2024-03-20 ESP32_02_I2C_test_pcf8574_oled154_V1"
-#define  VERSION_02a   "Version 2024-03-20"
+#define  VERSION_02     "2024-03-21 ESP32_02_I2C_test_pcf8574_oled154_V1"
+#define  VERSION_02a   "Version 2024-03-21"
 
 //_______Global values and hardware_____________________________
 
