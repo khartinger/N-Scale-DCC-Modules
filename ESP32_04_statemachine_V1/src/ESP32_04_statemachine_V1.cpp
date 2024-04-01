@@ -43,7 +43,7 @@ void setup() {
 //_____LOOP_____________________________________________________
 void loop() {
  //======(1) make at the beginning of the loop ...==============
- int state=stm.loopBegin();                 // state begin
+ int32_t state=stm.loopBegin();                 // state begin
  String s1;
  String sSerial=String(state);
 
