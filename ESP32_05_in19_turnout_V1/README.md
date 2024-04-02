@@ -25,7 +25,7 @@ Feedback is provided via two pins of a second PCF8574 I2C expander and is shown 
 2. 1x ribbon cable 2-pin plug/socket: PCF8574-0x21 Connect pin 0 and 1 to U5_W boards pin WRA and WRB
 3. 1x ribbon cable, 2-pin male/female connector for the power supply from the PCF8574 output to the U5_W boards
 4. 1x ribbon cable male-male 2-pin for connecting the 18V AC voltage to the U5_W boards
-4. 1x ribbon cable plug-plug as push-button on IO19 to ground
+5. 1x ribbon cable plug-plug as push-button on IO19 to ground
 
 ![Test_5V_W](./images/300_test_5V_W_240401.png "Test_5V_W")   
 _Figure 1: Test arrangement 5V_W switch control_ 

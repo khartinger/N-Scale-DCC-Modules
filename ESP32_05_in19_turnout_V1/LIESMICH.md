@@ -25,7 +25,7 @@ Die R&uuml;ckmeldung erfolgt &uuml;ber zwei Pins eines zweiten I2C-Expanders PCF
 2. 1x Flachbandkabel Stecker-Buchse 2polig: PCF8574-0x21 Pin 0 und 1 mit U5_W-Platinen Pin WRA und WRB verbinden
 3. 1x Flachbandkabel Stecker-Buchse 2polig f&uuml;r die Stromversorgung vom PCF8574-Ausgang zu den U5_W-Platinen
 4. 1x Flachbandkabel Stecker-Stecker 2polig f&uuml;r den Anschluss der 18V-Wechselspannung an den U5_W-Platinen
-4. 1x Flachbandkabel Stecker-Stecker als Taster an IO19 gegen Masse
+5. 1x Flachbandkabel Stecker-Stecker als Taster an IO19 gegen Masse
 
 ![Test_5V_W](./images/300_test_5V_W_240401.png "Test_5V_W")   
 _Bild 1: Testanordnung 5V_W-Weichensteuerung_ 
