@@ -35,7 +35,7 @@ _Bild 1: Testanordnung 5V_W-Weichensteuerung_
 2. Die U5_W-Platinen mit den I²C-Expander-Boards PCF8574 verbinden (Leitungen WSA, WSB, WRA, WRB).   
 3. An die U5_W-Platinen die Versorgungsspannung anschlie&szlig;en (5V, 0V von den Expander-Boards).   
 4. An die U5_W-Platinen die Schaltspannung anschlie&szlig;en (V+ und V-).   
-1. Programm `ESP32_05_in19_turnout_V1.cpp` compilieren und auf den ESP32 D1 mini hochladen.   
+5. Programm `ESP32_05_in19_turnout_V1.cpp` compilieren und auf den ESP32 D1 mini hochladen.   
 
 Dr&uuml;ckt man den Taster an IO19 (bzw. verbindet man IO19 kurz mit GND), so schaltet die Weiche um und ihr Zustand wird am Display angezeigt (gerade `__` oder Abzweigung `_/`).   
 Schaltet man die Weiche per Hand, so wird diese &Auml;nderung ebenfalls am Display angezeigt.    

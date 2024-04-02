@@ -35,7 +35,7 @@ _Figure 1: Test arrangement 5V_W switch control_
 2. connect the U5_W boards to the PCF8574 I²C expander boards (lines WSA, WSB, WRA, WRB).   
 3. connect the supply voltage to the U5_W boards (5V, 0V from the expander boards).   
 4. connect the switching voltage to the U5_W boards (V+ and V-).   
-1. compile the program `ESP32_05_in19_turnout_V1.cpp` and upload it to the ESP32 D1 mini.   
+5. compile the program `ESP32_05_in19_turnout_V1.cpp` and upload it to the ESP32 D1 mini.   
 
 If you press the button on IO19 (or briefly connect IO19 to GND), the turnout switches and its status is shown on the display (straight `__` or turnout `_/`).   
 If the points are switched manually, this change is also shown on the display.    
